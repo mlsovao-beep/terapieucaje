@@ -181,9 +181,7 @@ strong {
       max-width: 260px;   /* klidně 280–320 podle oka */
       margin-top: 0;
     }
-    .logo {
-      transform: translateY(40px);
-    }
+   
     .main-title {
       margin-top: 10px;   /* klidně i 0 */
     }
@@ -192,10 +190,28 @@ strong {
         position: relative;
         z-index: 2;
       }
+      .logo {
+        max-width: 300px;   /* klidně 320, ale 300 je hodně elegantní */
+        margin: 0;
+      }
     
       .logo {
         position: relative;
         z-index: 3;
+      }
+      .container {
+        padding-top: 10px;
+        padding-bottom: 0;
+      }
+      .main-title {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        line-height: 0.9;
+      }
+      .motto {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 36px; /* klidnější než 40 */
       }
     }
   }
