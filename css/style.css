@@ -119,12 +119,12 @@ html { box-sizing: border-box; }
     justify-content: space-between;
    
   }
- 
+  /*
   .header__logo {
-    height: 40px;
+    height: 45px;
     width: auto;
     padding: 0; 
-  } 
+  } */
   
   .header-navigation__tabs {
     position: relative;
@@ -171,9 +171,9 @@ html { box-sizing: border-box; }
   
   .logo {
     color: #5B6047;
-    max-width: 1O0px;
+    max-width: 150px;
     max-height: auto;
-    margin-top: 0;
+    margin-top: 20px;
     margin-left: 20px;
   }
 
@@ -181,9 +181,9 @@ html { box-sizing: border-box; }
 
  .language-switcher {
   text-align: right;
-  margin-top: 10px;
+  margin-top: 0.1rem;
   margin-right: 1rem;
-  margin-bottom: 0;
+  margin-bottom: 3rem;
   font-family: "Work Sans", sans-serif;
   font-weight: 300;
   font-size: 1rem;
@@ -195,7 +195,13 @@ html { box-sizing: border-box; }
   margin-left: 0;
 }
 
-
+@media (max-width: 1099px) {
+  .language-switcher {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-right: 0;
+  }
+}
   
 /*hamburger menu */
 .menu__checkbox {
@@ -356,14 +362,14 @@ html { box-sizing: border-box; }
 
 
 
-  @media screen  and (max-width: 1199px) {
+  @media screen  and (min-width: 600px) {
     .footer-copyright {
       display: flex;
       justify-content: space-between;
       max-width: 1200px;
       margin: 0 auto;
     }
-      
+      }
     
     .footer-copyright__creator {
       color: black;
@@ -403,7 +409,7 @@ html { box-sizing: border-box; }
       right: 40px; bottom: 20px;
       color: white;
       font-family: "Waterfall";
-      font-size: 40px;
+      font-size: 2rem;
       margin: 0;
       text-decoration: underline;
     }
@@ -432,11 +438,11 @@ html { box-sizing: border-box; }
       margin: 0;
       color: white;
       font-family: "Waterfall";
-      font-size: 20px;
-     
+      font-size: 1rem;
+      font-weight: bold;
       text-decoration: underline;
 
-    } }
+    }
     
     @media screen  and (min-width: 1100px) {
 
@@ -458,7 +464,7 @@ html { box-sizing: border-box; }
       right: 40px; bottom: 20px;
       color: white;
       font-family: "Waterfall";
-      font-size: 60px;
+      font-size: 2rem;
       margin: 0;
     }
 
@@ -491,13 +497,17 @@ html { box-sizing: border-box; }
       margin: 0;
       color: white;
       font-family: "Waterfall";
-      font-size: 30px;
+      font-size: 1.5rem;
       font-weight: bold;
 
     }
   }
 
-    
+    img { 
+      display: block;
+      width: 100%;
+
+    }
 
     .page-title {
       text-align: center;
@@ -592,6 +602,6 @@ html { box-sizing: border-box; }
     text-align: right;
     margin-right: 10px;
     font-family: "Waterfall";
-    font-size: 30px;
+    font-size: 1,5em;
     
   }
