@@ -17,7 +17,10 @@ html { box-sizing: border-box; }
   font-style: normal;
 }
 
-
+.layout {
+  margin: O;
+  padding: 0;
+}
   
 body {
     margin: 0;
@@ -170,8 +173,7 @@ strong {
     color: #5B6047;
     max-width: 150px;
     max-height: auto;
-    margin-top: 20px;
-    margin-left: 20px;
+  margin: 0;
   }
 
   /* prepinac CS/EN */
@@ -190,6 +192,7 @@ strong {
   text-decoration: none;
   color: #3c2f27; 
   margin-left: 0;
+  
  
 }
 
@@ -458,6 +461,7 @@ strong {
       .foto-1 {
         flex-basis: 64%;
         position: relative;
+        height: 200px;
       }
   
       .foto-1__popis {
@@ -473,6 +477,7 @@ strong {
         flex-basis: 36%;
         position: relative;
         display: block;
+        height: 200px;
       }
   
       .foto-1,
