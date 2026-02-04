@@ -9,11 +9,12 @@ html { box-sizing: border-box; }
   font-weight: 200;
   font-style: italic;
 }
-.satisfy-regular {
-  font-family: "Satisfy", cursive;
+.parisienne-regular {
+  font-family: "Parisienne", cursive;
   font-weight: 400;
   font-style: normal;
 }
+
 
   
   body {
@@ -248,7 +249,7 @@ html { box-sizing: border-box; }
   display: block
 
 }
-./* header__logo-container {
+/* header__logo-container {
   display: flex;
   flex-direction: column;
   align-items: center;   
@@ -315,7 +316,7 @@ html { box-sizing: border-box; }
 
 .main-title {
   font-size: 6rem;
-  font-family: "Satisfy";
+  font-family: "Parisienne";
   font-style: normal;
   font-weight: 400;
   margin-top: 60px;
@@ -327,7 +328,7 @@ html { box-sizing: border-box; }
 
 .motto {
   font-size: 30px;
-  font-family: "Satisfy";
+  font-family: "Parisienne";
     font-style: normal;
     font-weight: 400;
     text-align: center;
@@ -341,7 +342,7 @@ html { box-sizing: border-box; }
 @media screen  and (min-width: 1100px) {
 .main-title {
     font-size: 11rem;
-    font-family: "Satisfy";
+    font-family: "Parisienne";
     font-style: normal;
     font-weight: 200;
     text-align: center;
@@ -405,8 +406,8 @@ html { box-sizing: border-box; }
       position: absolute;
       right: 40px; bottom: 20px;
       color: white;
-      font-family:"Satisfy";
-      font-size: 4rem;
+      font-family: "Parisienne";
+      font-size: 2rem;
       margin: 0;
       text-decoration: underline;
     }
@@ -434,8 +435,8 @@ html { box-sizing: border-box; }
       right: 20px; bottom: 20px;
       margin: 0;
       color: white;
-      font-family: "Satisfy";
-      font-size: 1rem;
+      font-family: "Parisienne";
+      font-size: 0.5rem;
       font-weight: bold;
       text-decoration: underline;
 
@@ -458,8 +459,8 @@ html { box-sizing: border-box; }
       position: absolute;
       right: 40px; bottom: 20px;
       color: white;
-      font-family: "Satisfy";
-      font-size: 60px;
+      font-family: "Parisienne";
+      font-size: 30px;
       margin: 0;
     }
 
@@ -487,8 +488,8 @@ html { box-sizing: border-box; }
       left: 20px; top: 10px;
       margin: 0;
       color: white;
-      font-family: "Satisfy";
-      font-size: 2rem;
+      font-family: "Parisienne";
+      font-size: 1rem;
       font-weight: bold;
 
     }
@@ -587,4 +588,9 @@ html { box-sizing: border-box; }
   
   .map-link:hover {
     opacity: 0.7;
+  }
+
+  .nametag {
+    text-align: right;
+    margin-right: 20px;
   }
