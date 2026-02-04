@@ -199,11 +199,11 @@ strong {
 
 @media (max-width: 1099px) {
   .language-switcher {
-    text-align: center;
+    text-align: right;
     font-size: 0.9rem;
-    margin-right: 0;
+    margin-right: 1Opx;
     padding-top: 30px;
-    padding-left: 0;
+   
     
   }
 }
