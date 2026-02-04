@@ -180,7 +180,7 @@ strong {
 
  .language-switcher {
   text-align: right;
-  margin-top: 30px;
+ 
   
   margin-bottom: 0;
   font-family: "Work Sans", sans-serif;
@@ -459,7 +459,7 @@ strong {
       }
   
       .foto-1 {
-        flex-basis: 64%;
+        flex-basis: 60%;
         position: relative;
         height: 800px;
       }
@@ -474,7 +474,7 @@ strong {
       }
   
       .foto-2 {
-        flex-basis: 36%;
+        flex-basis: 40%;
         position: relative;
         display: block;
         height: 800px;
