@@ -199,11 +199,11 @@ strong {
 
 @media (max-width: 1099px) {
   .language-switcher {
-    text-align: right;
+    text-align: left;
     font-size: 0.9rem;
-    margin-right: 1Opx;
+    margin-left: 1Opx;
     padding-top: 30px;
-    margin-bottom: 20px;
+   
    
     
   }
@@ -329,7 +329,7 @@ strong {
   font-family: "Waterfall";
   font-style: normal;
   font-weight: 400;
-  margin-top: 60px;
+  margin-top: 10px;
   margin-bottom: 60px;
   color: #3c2f27;
   text-align: center;
