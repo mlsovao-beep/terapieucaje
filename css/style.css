@@ -449,6 +449,8 @@ strong {
 
       .sluzby {
         display: flex;
+        align-items: stretch;
+
         max-width: 1200px;
         margin: 0 auto;
       }
@@ -470,13 +472,21 @@ strong {
       .foto-2 {
         flex-basis: 36%;
         position: relative;
-        display: inline-block;
+        display: block;
       }
   
-      .foto-2 img {
-        display: block;
-        width: 100%;
+      .foto-1,
+      .foto-2 {
+       overflow: hidden;
       }
+
+      .foto-1 img,
+      .foto-2 img {
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+       }
+
   
       .overlay {
         position: absolute;
