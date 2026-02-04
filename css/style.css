@@ -11,11 +11,12 @@ html { box-sizing: border-box; }
 }
 
 
-.island-moments-regular {
-  font-family: "Island Moments", cursive;
+.waterfall-regular {
+  font-family: "Waterfall", cursive;
   font-weight: 400;
   font-style: normal;
 }
+
 
   
   body {
@@ -317,7 +318,7 @@ html { box-sizing: border-box; }
 
 .main-title {
   font-size: 6rem;
-  font-family: "Island Moments";
+  font-family: "Waterfall";
   font-style: normal;
   font-weight: 400;
   margin-top: 60px;
@@ -329,7 +330,7 @@ html { box-sizing: border-box; }
 
 .motto {
   font-size: 30px;
-  font-family: "Island Moments";
+  font-family: "Waterfall";
     font-style: normal;
     font-weight: 400;
     text-align: center;
@@ -343,7 +344,7 @@ html { box-sizing: border-box; }
 @media screen  and (min-width: 1100px) {
 .main-title {
     font-size: 11rem;
-    font-family: "Island Moments";
+    font-family: "Waterfall";
     font-style: normal;
     font-weight: 200;
     text-align: center;
@@ -407,7 +408,7 @@ html { box-sizing: border-box; }
       position: absolute;
       right: 40px; bottom: 20px;
       color: white;
-      font-family: "Island Moments";
+      font-family: "Waterfall";
       font-size: 2rem;
       margin: 0;
       text-decoration: underline;
@@ -436,7 +437,7 @@ html { box-sizing: border-box; }
       right: 20px; bottom: 20px;
       margin: 0;
       color: white;
-      font-family: "Island Moments";
+      font-family: "Waterfall";
       font-size: 1rem;
       font-weight: bold;
       text-decoration: underline;
@@ -447,6 +448,7 @@ html { box-sizing: border-box; }
 
     .sluzby {
       display: flex;
+      align-items: stretch;
       max-width: 1200px;
       margin: 0 auto;
     }
@@ -454,13 +456,14 @@ html { box-sizing: border-box; }
     .foto-1 {
       flex-basis: 64%;
       position: relative;
+      overflow: hidden;
     }
 
     .foto-1__popis {
       position: absolute;
       right: 40px; bottom: 20px;
       color: white;
-      font-family: "Island Moments";
+      font-family: "Waterfall";
       font-size: 2rem;
       margin: 0;
     }
@@ -468,12 +471,16 @@ html { box-sizing: border-box; }
     .foto-2 {
       flex-basis: 36%;
       position: relative;
-      display: inline-block;
+      overflow: hidden;
+    
     }
 
+    .foto-1 img,
     .foto-2 img {
-      display: block;
       width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
     }
 
     .overlay {
@@ -489,7 +496,7 @@ html { box-sizing: border-box; }
       left: 20px; top: 10px;
       margin: 0;
       color: white;
-      font-family: "Island Moments";
+      font-family: "Waterfall";
       font-size: 1.5rem;
       font-weight: bold;
 
@@ -594,6 +601,6 @@ html { box-sizing: border-box; }
   .nametag {
     text-align: right;
     margin-right: 10px;
-    font-family: "Island Moments";
+    font-family: "Waterfall";
     
   }
