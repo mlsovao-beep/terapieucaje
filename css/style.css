@@ -94,7 +94,7 @@ strong {
 
     
   
-@media (min-width: 800px){
+
   .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -172,7 +172,7 @@ strong {
     max-height: auto;
     margin-top: 20px;
     margin-left: 20px;
-  }}
+  }
 
   /* prepinac CS/EN */
 
