@@ -9,13 +9,11 @@ html { box-sizing: border-box; }
   font-weight: 200;
   font-style: italic;
 }
-.alex-brush-regular {
-  font-family: "Alex Brush", cursive;
+.satisfy-regular {
+  font-family: "Satisfy", cursive;
   font-weight: 400;
   font-style: normal;
 }
-
-
 
   
   body {
@@ -250,13 +248,13 @@ html { box-sizing: border-box; }
   display: block
 
 }
-.header__logo-container {
+./* header__logo-container {
   display: flex;
   flex-direction: column;
-  align-items: center;   /* horizontálně */
+  align-items: center;   
   justify-content: center;
   text-align: center;
-}
+} */
 
 .header__logo {
   margin-left: 0;
@@ -317,7 +315,7 @@ html { box-sizing: border-box; }
 
 .main-title {
   font-size: 6rem;
-  font-family: "Alex Brush";
+  font-family: "Satisfy";
   font-style: normal;
   font-weight: 400;
   margin-top: 60px;
@@ -329,7 +327,7 @@ html { box-sizing: border-box; }
 
 .motto {
   font-size: 30px;
-  font-family: "Alex Brush";
+  font-family: "Satisfy";
     font-style: normal;
     font-weight: 400;
     text-align: center;
@@ -343,7 +341,7 @@ html { box-sizing: border-box; }
 @media screen  and (min-width: 1100px) {
 .main-title {
     font-size: 11rem;
-    font-family: "Alex Brush";
+    font-family: "Satisfy";
     font-style: normal;
     font-weight: 200;
     text-align: center;
@@ -407,10 +405,10 @@ html { box-sizing: border-box; }
       position: absolute;
       right: 40px; bottom: 20px;
       color: white;
-      font-family:"Alex Brush";
+      font-family:"Satisfy";
       font-size: 4rem;
       margin: 0;
-      
+      text-decoration: underline;
     }
 
     .foto-2 {
@@ -426,7 +424,7 @@ html { box-sizing: border-box; }
     .overlay {
       position: absolute;
       inset: 0;
-      background: rgba(0,0,0,0.4); /* černý průhledný filtr fotka Pavla */
+      background: rgba(0,0,0,0.2); /* černý průhledný filtr fotka Pavla */
     }
     
     
@@ -436,9 +434,10 @@ html { box-sizing: border-box; }
       right: 20px; bottom: 20px;
       margin: 0;
       color: white;
-      font-family: "Alex Brush";
-      font-size: 2rem;
+      font-family: "Satisfy";
+      font-size: 1rem;
       font-weight: bold;
+      text-decoration: underline;
 
     }
     
@@ -459,7 +458,7 @@ html { box-sizing: border-box; }
       position: absolute;
       right: 40px; bottom: 20px;
       color: white;
-      font-family: "Alex Brush";
+      font-family: "Satisfy";
       font-size: 60px;
       margin: 0;
     }
@@ -488,7 +487,7 @@ html { box-sizing: border-box; }
       left: 20px; top: 10px;
       margin: 0;
       color: white;
-      font-family: "Alex Brush";
+      font-family: "Satisfy";
       font-size: 2rem;
       font-weight: bold;
 
@@ -554,13 +553,6 @@ html { box-sizing: border-box; }
     }
     
 
-    .mapa-obrazek {
-      margin-left: auto;
-      margin-right: auto;
-      max-width: 200px;
-      max-height: 60px;
-    }
-
     .main-content {
      
       margin: 0, auto;
@@ -587,144 +579,12 @@ html { box-sizing: border-box; }
     margin-top: 40px;
    }
 
-    /* kontaktnií formulář */
-
-    .contact-card{
-      background: transparent;
-      border: 0;
-      box-shadow: none;
-      padding: 0;
-      text-align: right;
-     
-      
-    }
     
-    /* větší rozestupy mezi prvky */
-    form{ gap: 20px; }
-
-    .form-title {
-      font-family: "Alex Brush";
-      font-size: 4rem;
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
-    
-    /* štítky – jemná šedá, lehčí řez */
-    label{
-      color: #7a7872;
-      font-weight: 400;
-      letter-spacing: 0.01em;
-      margin-bottom: 10px;
-    }
-    
-    /* kolonky – světle vyplněné, tenký okraj, bez zaoblení */
-    input[type="text"],
-    input[type="email"],
-    input[type="tel"],
-    select,
-    textarea{
-      background: #f7f7f5;          /* světle šedá výplň */
-      border: 2px solid #c9c4bb;     /* tenký teplý okraj */
-      border-radius: 0;              /* ostré rohy */
-      padding: 16px 18px;
-      color: #3e3c37;
-      line-height: 1.35;
-      box-shadow: none;
-    }
-    input[type="text"],
-    input[type="email"],
-    input[type="tel"],
-    select{ min-height: 40px; }     
-    textarea{ min-height: 80px; resize: vertical; }
-    
-    input::placeholder,
-    textarea::placeholder{ color: #b1ada5; }
-
-    @media (max-width: 800px){
-    input[type="text"],
-    input[type="email"],
-    input[type="tel"],
-    textarea { 
-      width: 100%; }
-    }
-
-    @media (min-width: 800px){
-      input[type="text"],
-      input[type="email"],
-      input[type="tel"],
-      textarea { 
-        width: 100%; }
-      .contact-card {
-        padding-right: 10px;
-      }
-      }
-
-    
-    /* focus – jen ztmavení okraje, bez záře */
-    input:focus, select:focus, textarea:focus{
-      outline: none;
-      border-color: #a7a296;
-    }
-    
-    /* chybové stavy necháme jen okrajem (bez červeného pozadí) 
-    input:invalid, select:invalid, textarea:invalid{
-      border-color: #b56b6b;
-    }
-    .error-msg{ color:#b56b6b; } */
-    
-    /* dvousloupcová řada (ponecháno) */
-    .row{ gap: 28px; }
-    @media (min-width: 720px){
-      .row{ grid-template-columns: 1fr 1fr; }
-    }
-    
-    /* pás s tlačítkem vlevo – jako box pod tlačítkem */
-    .actions{
-      display: inline-block;          /* aby box nebyl přes celou šířku */
-      background: #f6f1e8;            /* krémové pozadí pod tlačítkem */
-      padding: 22px 24px;
-      margin-top: 8px;
-      border-radius: 0;               /* ostré rohy */
-    }
-    
-    /* tlačítko – malé modré, kapitálky s rozestupy písmen */
-    .actions button{
-      background: #b7c7e2;            /* jemně modré jako na náhledu */
-      color: #2a3542;
-      border: 0;
-      border-radius: 2px;
-      padding: 10px 16px;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.28em;         /* roztažené písmo */
-      box-shadow: none;
-    }
-    .actions button:hover{ filter: brightness(1.03); }
-    .actions button:active{ transform: translateY(1px); }
-    
-    /* na mobilu ať se pás i tlačítko chovají komfortně */
-    @media (max-width: 600px){
-      .actions{ width: 100%; padding: 18px; }
-      .actions button{ width: 100%; text-align: center; letter-spacing: 0.24
-      } }
-
-      form { display: grid; gap: 28px; }
-
-.row{
-  display: grid;
-  grid-template-columns: 1fr !important; /* přebije dřívější 1fr 1fr */
-  gap: 28px;
-}
-
-/* volitelně sjednotíme okraje mezi skupinami */
-.group { margin: 0; }
-
-.main-title,
-.motto,
-.foto-1__popis,
-.foto-2__popis,
-.form-title {
-  font-family: "Alex Brush", cursive !important;
-  letter-spacing: 0.03em;
-}
-
+   .map-link {
+    text-decoration: underline;
+    color: inherit;
+  }
+  
+  .map-link:hover {
+    opacity: 0.7;
+  }
