@@ -461,7 +461,7 @@ strong {
       .foto-1 {
         flex-basis: 64%;
         position: relative;
-        height: 200px;
+        height: 800px;
       }
   
       .foto-1__popis {
@@ -477,7 +477,7 @@ strong {
         flex-basis: 36%;
         position: relative;
         display: block;
-        height: 200px;
+        height: 800px;
       }
   
       .foto-1,
@@ -614,4 +614,9 @@ strong {
     font-family: "Waterfall";
     font-size: 30px;
     
+  }
+
+  .layout {
+    margin: O;
+    padding: 0;
   }
