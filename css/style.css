@@ -176,12 +176,37 @@ strong {
   margin: 0;
   }
 
+  @media (min-width: 1100px) {
+    .logo {
+      max-width: 260px;   /* klidně 280–320 podle oka */
+      margin-top: 0;
+    }
+    .logo {
+      transform: translateY(40px);
+    }
+    .main-title {
+      margin-top: 10px;   /* klidně i 0 */
+    }
+    @media (min-width: 1100px) {
+      .header {
+        position: relative;
+        z-index: 2;
+      }
+    
+      .logo {
+        position: relative;
+        z-index: 3;
+      }
+    }
+  }
+
   /* prepinac CS/EN */
 
  .language-switcher {
   text-align: right;
    padding-right: 30px;
    padding-top: 30px;
+   padding-left: 30px;
   
   margin-bottom: 0;
   font-family: "Work Sans", sans-serif;
@@ -203,6 +228,7 @@ strong {
     font-size: 0.9rem;
     padding-left: 2Opx;
     padding-top: 30px;
+
    
    
     
