@@ -9,12 +9,13 @@ html { box-sizing: border-box; }
   font-weight: 200;
   font-style: italic;
 }
-.parisienne-regular {
-  font-family: "Parisienne", cursive;
+
+
+.island-moments-regular {
+  font-family: "Island Moments", cursive;
   font-weight: 400;
   font-style: normal;
 }
-
 
   
   body {
@@ -316,7 +317,7 @@ html { box-sizing: border-box; }
 
 .main-title {
   font-size: 6rem;
-  font-family: "Parisienne";
+  font-family: "Island Moments";
   font-style: normal;
   font-weight: 400;
   margin-top: 60px;
@@ -328,7 +329,7 @@ html { box-sizing: border-box; }
 
 .motto {
   font-size: 30px;
-  font-family: "Parisienne";
+  font-family: "Island Moments";
     font-style: normal;
     font-weight: 400;
     text-align: center;
@@ -342,7 +343,7 @@ html { box-sizing: border-box; }
 @media screen  and (min-width: 1100px) {
 .main-title {
     font-size: 11rem;
-    font-family: "Parisienne";
+    font-family: "Island Moments";
     font-style: normal;
     font-weight: 200;
     text-align: center;
@@ -406,7 +407,7 @@ html { box-sizing: border-box; }
       position: absolute;
       right: 40px; bottom: 20px;
       color: white;
-      font-family: "Parisienne";
+      font-family: "Island Moments";
       font-size: 2rem;
       margin: 0;
       text-decoration: underline;
@@ -425,7 +426,7 @@ html { box-sizing: border-box; }
     .overlay {
       position: absolute;
       inset: 0;
-      background: rgba(0,0,0,0.2); /* černý průhledný filtr fotka Pavla */
+      background: rgba(0,0,0,0.4); /* černý průhledný filtr fotka Pavla */
     }
     
     
@@ -435,8 +436,8 @@ html { box-sizing: border-box; }
       right: 20px; bottom: 20px;
       margin: 0;
       color: white;
-      font-family: "Parisienne";
-      font-size: 0.5rem;
+      font-family: "Island Moments";
+      font-size: 1rem;
       font-weight: bold;
       text-decoration: underline;
 
@@ -459,8 +460,8 @@ html { box-sizing: border-box; }
       position: absolute;
       right: 40px; bottom: 20px;
       color: white;
-      font-family: "Parisienne";
-      font-size: 30px;
+      font-family: "Island Moments";
+      font-size: 2rem;
       margin: 0;
     }
 
@@ -488,8 +489,8 @@ html { box-sizing: border-box; }
       left: 20px; top: 10px;
       margin: 0;
       color: white;
-      font-family: "Parisienne";
-      font-size: 1rem;
+      font-family: "Island Moments";
+      font-size: 1.5rem;
       font-weight: bold;
 
     }
@@ -592,5 +593,7 @@ html { box-sizing: border-box; }
 
   .nametag {
     text-align: right;
-    margin-right: 20px;
+    margin-right: 10px;
+    font-family: "Island Moments";
+    
   }
