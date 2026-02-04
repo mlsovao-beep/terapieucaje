@@ -629,3 +629,24 @@ strong {
     margin: O;
     padding: 0;
   }
+
+  .hero {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .hero-logo {
+    max-width: 320px;
+    margin: 0 auto 10px;
+    display: block;
+  }
+  .main-title {
+    margin: 0 0 10px;
+    line-height: 0.9;
+  }
+  .motto {
+    margin: 0;
+    font-size: 36px;
+  }
+  
