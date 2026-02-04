@@ -19,23 +19,20 @@ html { box-sizing: border-box; }
 
 
   
-  body {
-  
-      margin: 0;
-      font-family: raleway;
-      font-style: normal;
-      line-height: 1.25;
-      font-size: 1.2rem;
-      font-weight: 200;
-      color: #3c2f27;
-      margin-left: auto;
-      margin-right: auto;
-   
+body {
+    margin: 0;
+    font-family: raleway;
+    font-style: normal;
+    line-height: 1.25;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #3c2f27;
+    margin-left: auto;
+    margin-right: auto;
     }
 
-    strong {
-      font-weight: 600;
-
+strong {
+    font-weight: 600;
     }
 
     @media (max-width:600px){
@@ -97,7 +94,7 @@ html { box-sizing: border-box; }
 
     
   
-
+@media (min-width: 800px){
   .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -175,15 +172,15 @@ html { box-sizing: border-box; }
     max-height: auto;
     margin-top: 20px;
     margin-left: 20px;
-  }
+  }}
 
   /* prepinac CS/EN */
 
  .language-switcher {
   text-align: right;
-  margin-top: 0.1rem;
+  margin-top: 1rem;
   margin-right: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 0;
   font-family: "Work Sans", sans-serif;
   font-weight: 300;
   font-size: 1rem;
@@ -409,7 +406,7 @@ html { box-sizing: border-box; }
       right: 40px; bottom: 20px;
       color: white;
       font-family: "Waterfall";
-      font-size: 2rem;
+      font-size: 40px;
       margin: 0;
       text-decoration: underline;
     }
@@ -438,8 +435,8 @@ html { box-sizing: border-box; }
       margin: 0;
       color: white;
       font-family: "Waterfall";
-      font-size: 1rem;
-      font-weight: bold;
+      font-size: 20px;
+      
       text-decoration: underline;
 
     }
@@ -464,7 +461,7 @@ html { box-sizing: border-box; }
       right: 40px; bottom: 20px;
       color: white;
       font-family: "Waterfall";
-      font-size: 2rem;
+      font-size: 60px;
       margin: 0;
     }
 
@@ -497,8 +494,8 @@ html { box-sizing: border-box; }
       margin: 0;
       color: white;
       font-family: "Waterfall";
-      font-size: 1.5rem;
-      font-weight: bold;
+      font-size: 30px;
+     
 
     }
   }
@@ -599,9 +596,9 @@ html { box-sizing: border-box; }
   }
 
   .nametag {
-    text-align: right;
-    margin-right: 10px;
+    text-align: center;
+    margin-right: 0;
     font-family: "Waterfall";
-    font-size: 1,5em;
+    font-size: 30px;
     
   }
